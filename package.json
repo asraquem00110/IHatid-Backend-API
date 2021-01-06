@@ -1,0 +1,53 @@
+{
+  "name": "ihatid",
+  "version": "1.0.0",
+  "description": "A simple version of booking service for motor/angkas courier/deliver",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "TypeScript",
+    "MongoDB"
+  ],
+  "author": "Alvin Raquem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.15",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^3.0.4",
+    "socket.io-client": "^3.0.4",
+    "twilio": "^3.54.1",
+    "validatorjs": "^3.21.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.9",
+    "@types/mongoose": "^5.10.1",
+    "@types/node": "^14.14.8",
+    "@types/passport": "^1.0.4",
+    "@types/passport-jwt": "^3.0.3",
+    "@types/socket.io": "^2.1.12",
+    "@types/socket.io-client": "^1.4.34",
+    "@types/validatorjs": "^3.15.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
